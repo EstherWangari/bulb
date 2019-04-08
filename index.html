@@ -3,10 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>bulbs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src='js/scripts.js'>
+
+    </script>
   </head>
   <body>
     <h2>Dynamic!!</h2>
-
+    <div class='container'>
+      <center>
+          <img id='bulb' src='./images/lights-off.jpeg' />
+          <div class='row'>
+            <div class='col-md-6'>
+              <button type="button" name="button" onClick="document.getElementById('bulb').src='./images/glow.jpeg'">Turn me on</button>
+            </div>
+            <div class='col-md-6'>
+              <button type="button" name="button" onClick="document.getElementById('bulb').src='./images/lights-off.jpeg'">Turn me off</button>
+            </div>
+          </div>
+      </center>
+    </div>
   </body>
 </html>
