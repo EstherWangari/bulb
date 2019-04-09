@@ -1,2 +1,10 @@
-h2{text-align: center;padding-top: 20px;color:red}
+body{background: black}
+h2{color:blue;font-family: 'Press Start 2P', cursive;display: none}
+h3{color:white;font-family: 'Covered By Your Grace', cursive}
 center{padding-top: 100px}
+#socketon{width:40px}
+#socketoff{width:40px;display:none}
+center{padding-top: 10px}
+.image{padding-top: 60px}
+span{color:#F9E739}
+.off{padding-top: 120px}

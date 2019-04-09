@@ -5,24 +5,30 @@
     <title>bulbs</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
     <script type="text/javascript" src='js/scripts.js'>
 
     </script>
   </head>
-  <body>
-    <h2>Dynamic!!</h2>
-    <div class='container'>
-      <center>
-          <img id='bulb' src='./images/lights-off.jpeg' />
-          <div class='row'>
-            <div class='col-md-6'>
-              <button type="button" name="button" onClick="document.getElementById('bulb').src='./images/glow.jpeg'">Turn me on</button>
-            </div>
-            <div class='col-md-6'>
-              <button type="button" name="button" onClick="document.getElementById('bulb').src='./images/lights-off.jpeg'">Turn me off</button>
-            </div>
-          </div>
+  <body id='body'>
+    <center>
+    <h2 id='header'>DYNAMIC</h2>
+    <h3 id='three'>Turn Me <span>On</span></h3>
+      <div>
+      <img id='socketon' src='./images/socket-on.jpg' onClick="lightsOn()" />
+      </div>
+      <div class='image'>
+          <img id='bulb' src='./images/eyes.jpg' />
+      </div>
+      <div class='off'>
+
+
+              <img id='socketoff' src='./images/socket-off.jpeg'onClick="lightsOff()" />
+        </div>
+
+
       </center>
-    </div>
+
   </body>
 </html>
