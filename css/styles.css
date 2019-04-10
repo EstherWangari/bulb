@@ -12,6 +12,11 @@
   .image img{width:100px}
   .image{padding-top: 50px}
   .off{padding-top: 40px}
+  .heartBeat {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
 
 
 }
